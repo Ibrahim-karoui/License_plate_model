@@ -15,3 +15,9 @@ This repository contains a YOLOv8-based license plate detection model trained on
 The dataset used for training and validation is available [here](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4/download).
 
 **Note:** The dataset is not included in this repository due to size constraints.
+
+## Training Details
+
+- Model used: `YOLOv8m`  
+- Number of epochs: 16  
+- Hardware: NVIDIA GeForce RTX 4070 Laptop GPU (CUDA enabled)  
