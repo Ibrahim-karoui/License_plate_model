@@ -15,9 +15,3 @@ This repository contains a YOLOv8-based license plate detection model trained on
 The dataset used for training and validation is available [here](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4/download).
 
 **Note:** The dataset is not included in this repository due to size constraints.
-
-## How to Use
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/Ibrahim-karoui/License_plate_model.git
