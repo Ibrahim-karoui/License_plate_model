@@ -8,7 +8,17 @@ This repository contains a YOLOv8-based license plate detection model trained on
 - `data/` : Dataset folders (`train`, `valid`, `test`) with images and labels  
 - `runs/` : Training outputs including weights (`best.pt`, `last.pt`) and metrics  
 - `config.yaml` : Dataset configuration for YOLOv8  
-- `requirements.txt` : Python dependencies  
+- `src/requirements.py` : Install Python dependencies  
+
+## Installation
+
+To set up the project, create a virtual environment, activate it, and run the dependency installation script:
+
+```bash
+python -m venv env
+.\env\Scripts\activate.ps1
+python src\requirements.py
+```
 
 ## Dataset
 
